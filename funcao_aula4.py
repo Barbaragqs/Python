@@ -6,7 +6,7 @@ modelo:
 
 def nome_funcao(parametros):
     comandos
-ex 1:
+exemplo 1:
 
 def saudacao(nome):
     return(f"boa tarde {nome.title()}!")
@@ -14,7 +14,8 @@ def saudacao(nome):
 nome = input("digite seu nome: ")
 resultado = saudacao(nome)
 print(resultado)
-'''
+
+exemplo 2:
 
 #criar função que recebe nome e idade e retorna uma mensagem de cadastro com o nome e idade informado
 
@@ -26,6 +27,17 @@ if(idade>45):
     resultado = cadastro (nome, idade)
     print (resultado)
 else: print("idade não aceita")
+'''
+
+#exercício 1:
+
+def dobro(numero):
+    return numero * 2
+
+numero = int(input("digite um número: "))
+resultado = dobro(numero)
+print(resultado)
+
 
 
 
